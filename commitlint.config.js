@@ -16,6 +16,7 @@ export default {
         "build",    // 构建系统或外部依赖项的更改
         "ci",       // 持续集成配置文件和脚本的更改
         "revert",   // 回滚
+        "wip",      // 进行中
       ],
     ],
     "type-case": [2, "always", "lower-case"],

@@ -1,11 +1,11 @@
 <template>
   <div class="map-container">
-    <h1>Cesium Map View</h1>
+    <CesiumMap />
   </div>
 </template>
 
 <script setup lang="ts">
-  // Map component logic will be implemented here
+  import CesiumMap from "@/components/CesiumMap.vue";
 </script>
 
 <style scoped>
